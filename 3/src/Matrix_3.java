@@ -5,10 +5,7 @@ public class Matrix_3 {
         System.out.println("Keval Shah\nEnrollment no : 180410107105");
         Random g = new Random();
         int[][] x = new int [6][7];
-        int i;
-        int j;
-        int k=0;
-        int l=0;
+        int i,j;
         for(i=0;i<6;i++){
             int y=0;
             for(j=0;j<6;j++){
