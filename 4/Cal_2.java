@@ -7,6 +7,7 @@ class Cal_2 {
         int l=0;
         String ex=y.nextLine();
         String[] arr=new String[2];
+        
         if(ex.contains("+")){
             arr=ex.split("\\+",2);
             arr[0]=arr[0].trim();
@@ -32,5 +33,6 @@ class Cal_2 {
             l=Integer.parseInt(arr[0])/Integer.parseInt(arr[1]);
         }
         System.out.println(l);
+        y.close();
     }
 }
